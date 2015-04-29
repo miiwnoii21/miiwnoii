@@ -1,0 +1,34 @@
+{
+  "name": "miiwnoi",
+  "version": "1.0.0",
+  "homepage": "https://miiwnoi.herokuapp.com",
+  "authors": [
+    "Jutamas Kanthong"
+  ],
+  "description": "Miiwnoi's Portfolio",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "Miiwnoi",
+    "Jutamas",
+    "Kanthong",
+    "Big-Miiw",
+    "Sally-Miiw"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4",
+    "fontawesome": "~4.3.0",
+    "jqBootstrapValidation": "~1.3.7",
+    "jquery-easing": "*"
+  }
+}
