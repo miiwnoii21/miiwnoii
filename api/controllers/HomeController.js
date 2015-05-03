@@ -6,7 +6,23 @@
  */
 
 module.exports = {
+
   index: function(req, res, next) {
     return res.view('home/index');
+  },
+
+  postContact: function(req, res, next) {
+
+    ContactService.sendForm(req, function(err, contact) {
+      if (err) return res.badRequest();
+      else {
+        EmailService.sendContactMail({
+          options: contact
+        });
+
+        return res.redirect('/');
+      }
+    });
+
   }
 };
