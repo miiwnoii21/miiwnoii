@@ -1,11 +1,11 @@
 {
-  "name": "miiwnoi",
+  "name": "miiwnoii",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://miiwnoi.herokuapp.com",
+  "homepage": "https://miiwnoii.herokuapp.com",
   "description": "Miiwnoi's Portfolio",
   "keywords": [
-    "Miiwnoi",
+    "Miiwnoii",
     "Jutamas",
     "Kanthong",
     "Big-Miiw",
@@ -42,7 +42,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:aobphilos/miiwnoi.git"
+    "url": "git@github.com:miiwnoii21/miiwnoii.git"
   },
   "author": "Jutamas Kanthong",
   "license": "MIT"
